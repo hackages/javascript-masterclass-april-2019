@@ -1,0 +1,26 @@
+{
+  "name": "masterclass.js.koans",
+  "version": "0.0.1",
+  "description": "learn javascript syntax with tdd",
+  "scripts": {
+    "test": "jest",
+    "docs": "esdoc -c esdoc.json && open ./esdoc/index.html"
+  },
+  "keywords": [
+    "javascript",
+    "testing",
+    "lodash"
+  ],
+  "author": "team@hackages.io",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.3.1",
+    "esdoc": "^0.4.8",
+    "eslint": "^3.9.1",
+    "jest": "^24.1.0",
+    "wallaby-webpack": "0.0.9"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
